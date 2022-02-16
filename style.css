@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #FDFEFF;
+    color: #444444;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}  
+p {
+    color: #010203;
+    font-weight: 900;
+}
+    
+    
+
+.navs{
+    background-color: #010203;
+    height: 4rem;
+    overflow: hidden;
+    position: fixed;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+
+.brand{
+    float: left;
+    width: 30%;
+    padding: 1rem;
+}
+
+.brand a{
+    cursor: pointer;
+}
+.fa-bitcoin:before {
+    color: white;
+}
+
+
+.right-side{
+    float: right;
+    width: 70%;
+    text-align: center;
+    padding: 5px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.right-side ul {
+    display: flex;
+    margin-left: auto;
+    padding: 0.5rem;    
+}
+
+.right-side a{
+    color: #fff;
+    padding: 10px;
+    margin: 0 10px;
+}
+.right-side a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+li, a, button {
+    text-decoration: none;
+}
+a{
+    color: slateblue;
+}
+
+ul{
+    list-style: none;
+}
+
+.showcase{
+    background-image: url(./img/trading.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    color: #FDFEFF;
+}
+
+
+.showcase p{
+    padding: 1rem;
+    width: 600px;
+    margin: auto;
+    color: #FDFEFF;
+}
+
+.showcase button {
+    background-color: slateblue;
+    width: 170px;
+}
+
+.second{
+    background-color: slategrey;
+}
+.third{
+    height: 600px;
+}
+.third i{
+    color: slateblue;
+}
+.icons{
+    height: 200px;
+    padding-top: 5rem;
+}
+
+.forth{
+    background-color: #dee2e6;
+}
+
+.forth img{
+    object-fit: contain;
+    height: 312px;
+    width: 416px;
+}
+
+
+.forth button{
+    width: 250px;
+    height: 50px;
+    font-size: 900;
+    background-color: slateblue;
+}
+
+.fifth{
+    
+}
+
+.fifth form{
+    width: 500px;
+    margin: auto;
+}
+.fifth input, textarea {
+    width: 300px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.fifth label {
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 14px;
+}
+
+.fifth textarea{
+    height: 150px;
+}
+
+#special {
+    background-color: slateblue;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    font-size: 900;
+
+}
+
+.footer{
+    /* background-color: #FDFEFF; */
+    background-color: #dee2e6;
+
+}
+
+.dark-black{
+    color: #010203;
+}
